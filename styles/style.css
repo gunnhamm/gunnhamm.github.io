@@ -3,14 +3,70 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 h1 {
-    font-size: 32px;
+    font-size: 29px;
     text-align: center;
   }
-a {
-color: rgb(65, 174, 224);
+h2 {
+  font-size: 29px;
+  color:#0c8e9c;
+  word-wrap: break-word;
 }
-hr.dashed {
-    border: 0;
-	border-top: 2px dashed #979899;
-    width: 30%;
-  }
+a {
+color: #3bb0e6;
+}
+
+.parent {
+  margin-left: 28%;
+}
+.child {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section {
+  margin-left: 28%;
+}
+img { 
+  display: inline-block;
+  vertical-align: top;
+  width: 20%; 
+} 
+
+p {
+  color: #414141;
+}
+ul {
+  display: inline-block;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #505050;
+  width: 60%;
+}
+
+li {
+  display: inline-block;
+
+}
+
+li a {
+  display: block;
+  color: #0c8e9c;
+  text-align: center;
+  padding: 0px 8px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #0c8e9c;
+  color: white;
+}
+img {
+  border-style: solid;
+  border-color: #0c8e9c;
+  padding: 5px;
+}
