@@ -30,9 +30,7 @@ a {
 }
 
 .parent {
-  display: flex;
-  justify-content: center;
-  align-items: start;
+  margin-left: 25%;
 
 
 }
@@ -41,9 +39,16 @@ a {
   vertical-align: top;
   
 }
-
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .section {
-  margin-left: 28%;
+  margin-left: 25%;
+  margin-right: 25%;
+
 
 }
 img { 
